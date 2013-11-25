@@ -1,0 +1,34 @@
+{
+    "name" : "touch-node",
+    "version" : "2.3.1",
+    "description" : "Sencha Touch Class System, Utilities, and DOM-Free classes ported to Node JS",
+    "author" : "Modus Create <contact@moduscreate.com> (http://moduscreate.com)" ,
+    "homepage" : "http://moduscreate.com",
+    "main" : "index",
+    "directories" : [
+        "lib",
+        "src"
+    ],
+    "keywords" : [
+        "sencha",
+        "sencha-touch",
+        "class",
+        "classes",
+        "class-based",
+        "utility",
+        "utilities",
+        "extjs"
+    ],
+    "bugs" : {
+        "url" : "https://github.com/ModusCreateOrg/touch-node/issues"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:ModusCreateOrg/touch-node.git"
+    },
+    "dependencies" : {},
+    "devDependencies" : {},
+    "engines" : {
+        "node" : "*"
+    }
+}
