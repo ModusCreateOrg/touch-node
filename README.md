@@ -40,6 +40,10 @@ If you want to use the uncompressed (dev) version of the library you can require
 var Ext = require('touch-node/dev');
 ```
 
+Examples
+--------
+
+To see the module in action take a look at the [examples](../master/examples) directory.
 
 Documentation
 -------------
