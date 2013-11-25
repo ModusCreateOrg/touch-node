@@ -43,7 +43,7 @@ var Ext = require('touch-node/dev');
 Examples
 --------
 
-To see the module in action take a look at the [examples](../master/examples) directory.
+To see the module in action take a look at the [example](../master/example) directory where we show how to leverage create classes, mixins for those classes and require them with `Ext.Loader`.
 
 Documentation
 -------------
