@@ -52,4 +52,4 @@ For more information on the Sencha Touch class system and examples, please refer
 License
 ----
 Sencha Touch is licensed under GPLv3. For more see the here:
-[license.txt](../blob/master/license.txt)
+[license.txt](../master/license.txt)
