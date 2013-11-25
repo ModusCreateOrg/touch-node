@@ -20,18 +20,26 @@ This was built off Sencha Touch 2.3.1
 Installation
 --------------
 
-```npm install touch-node
 ```
+npm install touch-node
+```
+
 
 Usage
 -----
-```var Ext = require('touch-node');
+
 ```
+var Ext = require('touch-node');
+```
+
 
 If you want to use the uncompressed (dev) version of the library you can require the `dev` submodule
 
-```var Ext = require('touch-node/dev');
+
 ```
+var Ext = require('touch-node/dev');
+```
+
 
 Documentation
 -------------
