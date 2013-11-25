@@ -5,10 +5,10 @@
     "author" : "Modus Create <contact@moduscreate.com> (http://moduscreate.com)" ,
     "homepage" : "http://moduscreate.com",
     "main" : "index",
-    "directories" : [
-        "lib",
-        "src"
-    ],
+    "directories" : {
+        "lib" : "./lib",
+        "example" : "./example"
+    },
     "keywords" : [
         "sencha",
         "sencha-touch",
