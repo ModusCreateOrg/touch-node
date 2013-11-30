@@ -1,6 +1,6 @@
 {
     "name" : "touch-node",
-    "version" : "2.3.1",
+    "version" : "2.3.1-1",
     "description" : "Sencha Touch Class System, Utilities, and DOM-Free classes ported to Node JS",
     "author" : "Modus Create <contact@moduscreate.com> (http://moduscreate.com)" ,
     "homepage" : "http://moduscreate.com",

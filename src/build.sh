@@ -14,6 +14,8 @@ sencha compile -classpath=../ext \
                -class Ext.Container,  \
                -class Ext.Decorator,  \
                -class Ext.EventManager,  \
+               -class Ext.event.Dom, \
+               -class Ext.event.Touch, \
                -class Ext.Img,  \
                -class Ext.Label,  \
                -class Ext.LoadMask, \
@@ -61,7 +63,8 @@ sencha compile -classpath=../ext \
                -namespace Ext.dom,  \
                -namespace Ext.draw,  \
                -namespace Ext.env,  \
-               -namespace Ext.event,  \
+               -namespace Ext.event.publisher,  \
+               -namespace Ext.event.recognizer,  \
                -namespace Ext.field,  \
                -namespace Ext.form,  \
                -namespace Ext.fx,  \
