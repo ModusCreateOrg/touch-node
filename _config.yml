@@ -1,3 +1,4 @@
 name: Touch Node
 markdown: redcarpet
 pygments: true
+baseurl: /touch-node
