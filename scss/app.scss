@@ -1,2 +1,16 @@
 @import "settings";
 @import "foundation";
+
+h1 {
+  font-weight: 900;
+}
+
+header {
+  text-align: center;
+}
+
+.highlight {
+  margin-bottom: $paragraph-margin-bottom;
+  background: #fff;
+  padding: 15px;
+}

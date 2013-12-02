@@ -3,7 +3,7 @@ layout: post
 title:  Touch Node
 date:   2013-12-02
 ---
-  
+
 Touch Node is a port of the entire Sencha Touch Class System, utilities as well as DOM-Free classes. These classes include:
 
 - Data connection (Ajax, JSONP, Ext.Direct)
@@ -34,7 +34,7 @@ var Ext = require('touch-node/dev');
 {% endhighlight %}
 
 ## Examples
-To see the module in action take a look at the [example](../master/example) directory where we show how to leverage create classes, mixins for those classes and require them with `Ext.Loader`.
+To see the module in action take a look at the [example](https://github.com/ModusCreateOrg/touch-node/tree/master/example) directory where we show how to leverage create classes, mixins for those classes and require them with `Ext.Loader`.
 
 ## Documentation
 For more information on the Sencha Touch class system and examples, please refer to the library documentation page here:

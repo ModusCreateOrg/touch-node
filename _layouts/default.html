@@ -6,24 +6,29 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/app.css">
 
     </head>
     <body>
     <div class="container">
+      <header>
         <div class="row">
-            <div class="small-12 columns">
-                  <header>
-                    <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-                  </header>
-
-                  {{ content }}
-            </div>
+          <div class="small-12 columns">
+            <img src="../img/touch-node.png" alt="" />
+          </div>
+          <div class="small-12 columns">
+            <a href="https://github.com/ModusCreateOrg/touch-node" class="button large">
+              <strong>Source on GitHub</strong>
+            </a>
+          </div>
         </div>
+      </header>
+      <div class="row">
+        <div class="small-12 columns">
+          {{ content }}
+        </div>
+      </div>
     </div>
 
 
