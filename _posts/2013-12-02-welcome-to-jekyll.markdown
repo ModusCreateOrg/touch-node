@@ -1,60 +1,46 @@
-<img src="http://moduscreate.com/wp-content/uploads/2013/11/touchnodelogo.png" height="300" alt="Touch Node Logo">
-Touch Node
-=========
-
+---
+layout: post
+title:  Touch Node
+date:   2013-12-02 11:26:37
+---
+  
 Touch Node is a port of the entire Sencha Touch Class System, utilities as well as DOM-Free classes. These classes include:
 
-  - Data connection (Ajax, JSONP, Ext.Direct)
-  - Model, Store and Proxies
-  - Utility classes for Array, String, Date, etc... 
-  - Loader
-  - Logger
-  - and more
+- Data connection (Ajax, JSONP, Ext.Direct)
+- Model, Store and Proxies
+- Utility classes for Array, String, Date, etc...
+- Loader
+- Logger
+- **and more**
 
-
-Version
-----
-
+## Version
 This was built off Sencha Touch 2.3.1
 
-
-Installation
---------------
-
-```
+## Installation
+{% highlight javascript %}
 npm install touch-node
-```
+{% endhighlight %}
 
+## Usage
 
-Usage
------
-
-```
+{% highlight javascript %}
 var Ext = require('touch-node');
-```
-
+{% endhighlight %}
 
 If you want to use the uncompressed (dev) version of the library you can require the `dev` submodule
 
-
-```
+{% highlight javascript %}
 var Ext = require('touch-node/dev');
-```
+{% endhighlight %}
 
-Examples
---------
-
+## Examples
 To see the module in action take a look at the [example](../master/example) directory where we show how to leverage create classes, mixins for those classes and require them with `Ext.Loader`.
 
-Documentation
--------------
-
+## Documentation
 For more information on the Sencha Touch class system and examples, please refer to the library documentation page here:
 
 [Sencha Touch Documentation](docs.sencha.com/touch/2.3.1/)
 
-
-License
-----
+## License
 Sencha Touch is licensed under GPLv3. For more see the here:
 [license.txt](../master/license.txt)
