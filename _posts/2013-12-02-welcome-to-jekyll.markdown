@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Touch Node
-date:   2013-12-02 11:26:37
+date:   2013-12-02
 ---
   
 Touch Node is a port of the entire Sencha Touch Class System, utilities as well as DOM-Free classes. These classes include:
