@@ -10,19 +10,22 @@
         <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/app.css">
 
     </head>
     <body>
+    <div class="container">
+        <div class="row">
+            <div class="small-12 columns">
+                  <header>
+                    <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+                  </header>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
-
-          {{ content }}
-
+                  {{ content }}
+            </div>
         </div>
+    </div>
+
 
     </body>
 </html>
